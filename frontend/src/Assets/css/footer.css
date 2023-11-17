@@ -1,0 +1,39 @@
+/* footer.css */
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative  ;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .socailmedialinkfooter
+  {
+    display:flex;
+    justify-content: space-between;
+  }
+  .divsvgfooter{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  .rightsidefooter{
+    margin-right: 40px;
+  }
+  .footer-link{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .address{
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+  .linktosocail{
+    text-decoration: none;
+  }

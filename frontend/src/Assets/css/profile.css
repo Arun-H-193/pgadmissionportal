@@ -1,0 +1,177 @@
+/* ProfilePage.css */
+
+/* Rest of your existing styles */
+
+/* Main */
+.main {
+    margin-top: 2%;
+    margin-left: 29%;
+    font-size: 16px; /* Adjust font size as needed */
+    padding: 0 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main h2 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .main .card {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .main .card table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .main .card table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Optional: Add borders between rows */
+  }
+  
+  .main .card table td:first-child {
+    font-weight: bold;
+    width: 30%; /* Adjust width of the first column as needed */
+  }
+  
+  /* Edit icon */
+  .edit {
+    position: absolute;
+    color: #e7e7e8;
+    right: 14%;
+  }
+  
+  .profilephoto{
+    width:300px;
+    height: 300px;
+  }
+  .edit-button {
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgb(32, 119, 124); /* Button background color */
+    color: white; /* Text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .edit-button:hover {
+    background-color: #000000; /* Change color on hover */
+  }
+  
+  .edit-button i {
+    margin-right: 5px;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 2; /* Higher z-index than the other elements */
+}
+
+.modal {
+    z-index: 3; /* Set higher z-index for the modal */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+    max-width: 80%; /* Adjust the max-width to fit your content */
+    width: 400px; /* Set a fixed width for the modal */
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .modal-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    /* Add your custom styles for the form inputs, labels, etc. */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-body label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .modal-body input,
+  .modal-body textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Customize the appearance of input fields when focused */
+  .modal-body input:focus,
+  .modal-body textarea:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+  }
+  
+  /* Style for the buttons inside the modal body */
+  .modal-body button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style for primary action button */
+  .modal-body button.primary {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Style for secondary action button */
+  .modal-body button.secondary {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .modal-footer button {
+    margin-left: 10px;
+  }

@@ -1,0 +1,26 @@
+.app {
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  .names{
+    display: flex;
+  }
+  .email{
+    margin-right: 20px;
+  }
+  .navbar-li{
+    display: flex;
+  }
+  .navbar-li li{
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+  }

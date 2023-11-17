@@ -1,0 +1,53 @@
+
+/* Styles for the entire student card */
+.student-card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Styles for personal information section */
+  .personal-info h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .personal-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Styles for academic details section */
+  .academic-details {
+    margin-top: 20px;
+  }
+  
+  .academic-details h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Styles for individual academic sections (SSC, HSC, UG) */
+  .academic-section {
+    margin-bottom: 15px;
+  }
+  
+  .academic-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .academic-section p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
